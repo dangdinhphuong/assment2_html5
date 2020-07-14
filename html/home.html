@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 <body id="myPage">
 
     <!-- Sidebar on click -->
@@ -21,7 +22,7 @@
     <div class="w3-top ">
         <div class="center_nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="../img/logo.png" class="logot" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -32,7 +33,8 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link nav-link_nav" href="#"
-                                style="color: #D5A86E !important; border-bottom: 1px solid red !important; font-weight: bold;">TRANG CHỦ
+                                style="color: #D5A86E !important; border-bottom: 1px solid red !important; font-weight: bold;">TRANG
+                                CHỦ
                             </a>
                         </li>
                         <li class="nav-item">
@@ -76,7 +78,7 @@
                 CHÀO MỪNG BẠN ĐẾN VỚI <i>CORP</i>
             </p>
 
-            <a class="btn btn_1" href="#contact" >LIÊN HỆ VỚI CHÚNG TÔI</a>
+            <a class="btn btn_1" href="#contact">LIÊN HỆ VỚI CHÚNG TÔI</a>
         </div>
     </div>
 
@@ -157,7 +159,7 @@
                                     <i class="fa fa-flag"></i>
                                 </div>
                                 <p class="facts-text">Phần mềm đã xây dựng&nbsp;</p>
-                                <div class="facts-number">
+                                <div class="facts-number" id="number1">
                                     67
                                 </div>
                             </div>
@@ -168,7 +170,7 @@
                                     <i class="fa fa-smile-o"></i>
                                 </div>
                                 <p class="facts-text">Dự án đã triển khai</p>
-                                <div class="facts-number">
+                                <div class="facts-number" id="number2">
                                     212
                                 </div>
                             </div>
@@ -179,7 +181,7 @@
                                     <i class="fa fa-code"></i>
                                 </div>
                                 <p class="facts-text">SMS Mobile Marketting&nbsp;/ngày</p>
-                                <div class="facts-number">
+                                <div class="facts-number" id="number3">
                                     1,000,000
                                 </div>
                             </div>
@@ -190,7 +192,7 @@
                                     <i class="fa fa-coffee"></i>
                                 </div>
                                 <p class="facts-text">Tỷ lệ thành công dự án (%)</p>
-                                <div class="facts-number">
+                                <div id="customer-count2">
                                     100
                                 </div>
                             </div>
@@ -220,12 +222,13 @@
                 <div class="row">
                     <div class="col-md-12 col_md_12 ">
                         <ul class="mdl-shadow--2dp">
-                            <li data-filter="Dịch-vụ-CNTT">Dịch vụ CNTT</li>
-                            <li data-filter="Công-nghệ-Web">Công nghệ Web</li>
-                            <li data-filter="Công-nghệ-CTI">Công nghệ CTI</li>
-                            <li data-filter="Dịch-vụ-GTGT">Dịch vụ GTGT</li><div class="clear"></div>
+                            <li data-filter="Dịch-vụ-CNTT"><a href="#"> Dịch vụ CNTT</a></li>
+                            <li data-filter="Công-nghệ-Web"><a href="#">Công nghệ Web</a></li>
+                            <li data-filter="Công-nghệ-CTI"><a href="#">Công nghệ CTI</a></li>
+                            <li data-filter="Dịch-vụ-GTGT"><a href="#">Dịch vụ GTGT</a></li>
+                            <div class="clear"></div>
                         </ul>
-                        
+
                     </div>
                 </div>
 
@@ -236,17 +239,17 @@
 
 
                     <div class="card ss_1">
-                        <a href="#1">
+                        <a href="dich_vu.html">
                             <img src="../img/unnamed.jpg">
                         </a>
                     </div>
                     <div class="card ss_1">
-                        <a href="#2">
+                        <a href="dich_vu.html">
                             <img src="../img/download.jpg">
                         </a>
                     </div>
                     <div class="card ss_1">
-                        <a href="#3">
+                        <a href="dich_vu.html">
                             <img src="../img/download (1).jpg">
                         </a>
                     </div>
@@ -255,17 +258,14 @@
             </div>
             <div class="row" style="margin: 20px 0;">
                 <div class="col-md-12 text-center">
-                    <a class=" btn btn_3" href="dich_vu.html" id="news_all_link" data-upgraded=",MaterialButton,MaterialRipple">xem
+                    <a class=" btn btn_3" href="dich_vu.html" id="news_all_link"
+                        data-upgraded=",MaterialButton,MaterialRipple">xem
                         chi tiết</a>
                 </div>
 
             </div>
         </div>
     </div>
-
-
-    </div>
-
 
 
     <!-- Pricing Row -->
@@ -296,8 +296,8 @@
                     </section>
                     <div class="mdl-card__actions">
                         <a class="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent btn_3 btn"
-                            data-upgraded=",MaterialButton,MaterialRipple"
-                            href="list_dau_tu.html">XEM CHI TIẾT</a>&nbsp;
+                            data-upgraded=",MaterialButton,MaterialRipple" href="list_dau_tu.html">XEM CHI
+                            TIẾT</a>&nbsp;
                     </div>
                 </div>
             </div>
@@ -315,8 +315,7 @@
                     </div>
                     <div class="mdl-card__actions">
                         <a class="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent  btn_3 btn"
-                            data-upgraded=",MaterialButton,MaterialRipple"
-                            href="list_dau_tu.html">Xem chi tiết</a>
+                            data-upgraded=",MaterialButton,MaterialRipple" href="list_dau_tu.html">Xem chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -329,13 +328,12 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <i class="fa fa-laptop ico"></i>
-                        <h2>điện lực</h2>
+                        <h2>ĐIỆN LỰC</h2>
                         <p>Các giải pháp dùng&nbsp;cho lĩnh vực Điện lực<br> &nbsp;</p>
                     </div>
                     <div class="mdl-card__actions">
                         <a class="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent  btn_3 btn"
-                            data-upgraded=",MaterialButton,MaterialRipple"
-                            href="list_dau_tu.html">Xem chi tiết</a>
+                            data-upgraded=",MaterialButton,MaterialRipple" href="list_dau_tu.html">Xem chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -353,8 +351,7 @@
                     </div>
                     <div class="mdl-card__actions">
                         <a class="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent  btn_3 btn"
-                            data-upgraded=",MaterialButton,MaterialRipple"
-                            href="list_dau_tu.html">Xem chi tiết</a>
+                            data-upgraded=",MaterialButton,MaterialRipple" href="list_dau_tu.html">Xem chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -403,21 +400,20 @@
                 </form>
             </div>
         </div>
-        
+
     </div>
-
-
-
 
     <!-- Footer -->
     <footer id="footer">
         <div class="widgetized-footer">
             <div class="container">
                 <div class="row">
+                    
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="footer-widget">
                             <a href="index.html" class="footer-logo"><img src="../img/logo (1).png" alt=""></a>
-                            <p>
+                          
+                            <p style="margin-top: 20px !important;">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">Độc đáo mở rộng cải tiến quy trình ảo mà
                                         không cần trao quyền xoáy. </font>
@@ -569,7 +565,8 @@
     <!-- to go top -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
- 
+  
+      
 
 
     <script src="../bootrap/js/bootstrap.min.js"></script>
@@ -577,7 +574,46 @@
     <script src="../bootrap/jquery/jquery.js"></script>
     <script src="../bootrap/js/bootstrap.bundle.js"></script>
     <script src="../js/nav.js"></script>
+    <script>
 
+      function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) {
+            const startTime = performance.now()
+            function updateNumber(currentTime) {
+                const elapsedTime = currentTime - startTime
+                if (elapsedTime > duration) {
+                    callback(finalNumber)
+                } else {
+                    const rate = elapsedTime / duration
+                    const currentNumber = Math.round(rate * finalNumber)
+                    callback(currentNumber)
+                    requestAnimationFrame(updateNumber)
+                }
+            }
+            requestAnimationFrame(updateNumber)
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            animateNumber(67, 3000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('number1').innerText = formattedNumber
+            })
+
+            animateNumber(212, 3000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('number2').innerText = formattedNumber
+            })
+
+            animateNumber(1000000, 3000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('number3').innerText = formattedNumber
+    })
+            animateNumber(100, 3000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('customer-count2').innerText = formattedNumber
+            })
+        })
+     
+
+    </script>
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
@@ -588,6 +624,7 @@
         function scrollFunction() {
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
                 mybutton.style.display = "block";
+                
             } else {
                 mybutton.style.display = "none";
             }
@@ -600,6 +637,7 @@
         }
     </script>
     <script src="../bootrap/jquery/jquery-2.2.2.js"></script>
+
 
 </body>
 
